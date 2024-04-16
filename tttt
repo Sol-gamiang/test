@@ -1,4 +1,4 @@
-
+local message = "HI \n"
 local message = "ACTIVE USER\n"
 local currentDate = os.date("%A, %B %d, %Y")
 local currentTime = os.date("%H:%M:%S")
