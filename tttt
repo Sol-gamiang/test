@@ -507,17 +507,22 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	AOBRep(searchV,replaceV)	showMessage("Magic Bullet Disabled")	end
 ----------------------------------------------------------------------------
 	function Speedx2ON()
-	searchV = 'C3 F5 88 40 CD CC 4C 40 CD CC 4C 40 00 00 00 3F'	replaceV = '00 00 CC 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
-	AOBRep(searchV,replaceV)	showMessage("️⚜️⚜️Speed Hack x2 Activad️⚜️⚜️ ")	end
-    function Speedx8ON()
+	searchV = 'C3 F5 88 40 CD CC 4C 40 CD CC 4C 40 00 00 00 3F'
+        replaceV = '00 00 CC 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
+	AOBRep(searchV,replaceV)	
+        showMessage("️⚜️⚜️Speed Hack x2 Activad️⚜️⚜️ ")	
+         end
+        function Speedx8ON()
 	searchV = 'C3 F5 88 40 CD CC 4C 40 CD CC'
 	replaceV = '00 00 FF 4F CD CC 4F 4F FD CC'
-	AOBRep(searchV,replaceV)	showMessage("️⚜️⚜️Speed Hack MIG-MIG Activad️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)	
+        showMessage("️⚜️⚜️Speed Hack MIG-MIG Activad️⚜️⚜️")
+         end
 	function SpeedOFF()
 	searchV = '00 00 CC 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
 	replaceV = 'C3 F5 88 40 CD CC 4C 40 CD CC 4C 40 00 00 00 3F'
 	AOBRep(searchV,replaceV)
-    searchV = '00 00 FF 4F CD CC 4F 4F FD CC'
+        searchV = '00 00 FF 4F CD CC 4F 4F FD CC'
 	replaceV = 'C3 F5 88 40 CD CC 4C 40 CD CC'
 	AOBRep(searchV,replaceV)	showMessage("  ️⚜️⚜️ Speed        Hack      Disabled️⚜️⚜️")	end
 ----------------------------------------------------------------------------------------------------------------------------------------------------
