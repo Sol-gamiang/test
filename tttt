@@ -1,12 +1,14 @@
-local message = "HI \n"
-local message = "ACTIVE USER\n"
-local currentDate = os.date("%A, %B %d, %Y")
-local currentTime = os.date("%H:%M:%S")
 
-message = message .. "Today is: " .. currentDate .. "\n"
-message = message .. "Current time is: " .. currentTime
+local message = "                                            ACTIVE USER\n"
+local currentTime = os.date("                                                %H:%M:%S")
+local currentDate = os.date("                                  %A, %B %d, %Y")
+
+
+message = message .. "".. currentDate .. "\n"
+message = message .. "".. currentTime
 
 showMessage(message)
+
 
 
 ---------------------------------------------------------------------------------------------
