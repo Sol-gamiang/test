@@ -1,5 +1,5 @@
 
-local message = "                                            SEZAR CHITER\n"
+local message = "                                            ACTIVE\n"
 local currentTime = os.date("                                                %H:%M:%S")
 local currentDate = os.date("                                  %A, %B %d, %Y")
 
