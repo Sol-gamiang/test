@@ -607,17 +607,17 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad DLQ (Activad)️⚜️⚜")	end
 	function NoReloadRUS ()
-	searchV = '2.90000009537'	replaceV = '9.99999972e-10'
+	searchV = '2.90000009537'  replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad RUS (Activad)️⚜️⚜")	end
 
 	function NoReloadKILO ()
-	searchV = '2.59999990463'	replaceV = '9.99999972e-10'
+	searchV = '2.59999990463'  replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad KILO (Activad)️⚜️⚜")	end
 
 	function NoReloadKrig6 ()
-	searchV = '1.89999997616'	replaceV = '9.99999972e-10'
+	searchV = '2.599999905'	replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad Krig 6 (Activad)️⚜️⚜")	end
 ---------------------------------------------------------------------------------------------------------------------------
