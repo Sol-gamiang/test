@@ -30,7 +30,7 @@ local function deleteFile(file_path)
     local success, err_msg = os.remove(file_path)
 
     if success then
-        showMessage("                    💠⚜️New UPDATE Black SKY.& FLY. SOON ⚜️💠")
+        showMessage("           💠⚜️New UPDATE Black SKY.& FLY. SOON ⚜️💠")
     else
         showMessage("NO ACCESS. PLEASE FIRST RUN USER.EXE")
     end
@@ -48,7 +48,7 @@ end
 local function deleteFile(file_path)
     local success, err_msg = os.remove(file_path)
     if success then
-        showMessage("                 💠⚜️New UPDATE Black SKY.& FLY.Wall Hack SOON  ⚜️💠")
+        showMessage("          💠⚜️New UPDATE Black SKY.& FLY.Wall Hack SOON  ⚜️💠")
        end
 end
 local temp_path = os.getenv("TEMP")
