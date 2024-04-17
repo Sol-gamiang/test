@@ -1,5 +1,3 @@
-
-
 local message = "                                                ACTIVE\n"
 local currentTime = os.date("                                                %H:%M:%S")
 local currentDate = os.date("                                  %A, %B %d, %Y")
@@ -497,19 +495,24 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	AOBRep(searchV,replaceV)	showMessage("⚜️⚜️⚜️Red Light Disabled⚜️⚜️⚜️")	end
 --------------------------------------------------------
     function MagicBudyON()
-	searchV = '0.18500000238'	replaceV = '1.18500000238'
+	searchV = '0.18500000238'
+    replaceV = '1.18500000238'
 	findFloatValueAndReplace(searchV,replaceV)
 	showMessage("⚜️⚜⚜️️Hip Fire Booster Activad⚜️⚜️⚜️")	end
 	function MagicBudyOFF()
-	searchV = '1.18500000238'	replaceV = '0.18500000238'
+	searchV = '1.18500000238'
+    replaceV = '0.18500000238'
 	findFloatValueAndReplace(searchV,replaceV)
 	showMessage("⚜️⚜️⚜️Hip Fire Booster Disabled⚜️⚜️⚜️")	end
 
 	function HeadShotON()
-	searchV = 'BC 74 13 3E 0A D7 A3 3E 00 00'	replaceV = 'D1 43 DD 3F 0A D7 A3 3E 00 00'
-	AOBRep(searchV,replaceV)	showMessage("️⚜️⚜️Magic Bullet Activda️⚜️⚜️")	end
+	searchV = 'BC 74 13 3E 0A D7 A3 3E 00 00'
+    replaceV = 'D1 43 DD 3F 0A D7 A3 3E 00 00'
+	AOBRep(searchV,replaceV)
+    showMessage("️⚜️⚜️Magic Bullet Activda️⚜️⚜️")	end
 	function HeadShotOFF()
-	searchV = 'D1 43 DD 3F 0A D7 A3 3E 00 00'	replaceV = 'BC 74 13 3E 0A D7 A3 3E 00 00'
+	searchV = 'D1 43 DD 3F 0A D7 A3 3E 00 00'
+    replaceV = 'BC 74 13 3E 0A D7 A3 3E 00 00'
 	AOBRep(searchV,replaceV)	showMessage("Magic Bullet Disabled")	end
 ----------------------------------------------------------------------------
 	function Speedx2ON()
@@ -630,14 +633,14 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 
 ---------------9999999999999999999999999999999999999999999999999999
 	function blackskyON ()
-	searchV =  '2.250025749'
-    replaceV = '9.250025749'
+	searchV =  '2.25002574921'
+    replaceV = '9.25002574921'
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜Black SKY (Activad)️⚜️⚜")	end
 
 	function blackskyOFF ()
-	searchV =  '9.250025749'
-    replaceV = '2.250025749'
+	searchV =  '9.25002574921'
+    replaceV = '2.25002574921'
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜Black SKY (Activad)️⚜️⚜")	end
 
