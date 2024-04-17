@@ -165,7 +165,7 @@ button174.Caption = 'Kilo'
 button174.Height = 24  button174.Left = 123  button174.Top = 395  button174.Width = 48
 
 local button175 = createButton(form) -- Create the "OFF" button with form as parent
-button175.Caption = 'Krit6'
+button175.Caption = 'Krig 6'
 button175.Height = 24 button175.Left = 175 button175.Top = 363 button175.Width = 48
 
 local button176 = createButton(form) -- Create the "OFF" button with form as parent
