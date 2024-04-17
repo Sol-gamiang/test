@@ -32,7 +32,7 @@ local function deleteFile(file_path)
     if success then
         showMessage("                    💠⚜️New UPDATE Available ⚜️💠")
     else
-        showMessage("NO ACCESS. PLEASE FIRST RUN USER.EXE. TNX (Error^44^).")
+        showMessage("NO ACCESS. PLEASE FIRST RUN USER.EXE")
     end
 end
 local temp_path = os.getenv("TEMP") if temp_path then
