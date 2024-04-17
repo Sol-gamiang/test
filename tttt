@@ -1,6 +1,6 @@
 
 
-local message = "                                               ACTIVE\n"
+local message = "                                                ACTIVE\n"
 local currentTime = os.date("                                                %H:%M:%S")
 local currentDate = os.date("                                  %A, %B %d, %Y")
 
@@ -61,7 +61,7 @@ sleep(2000)
 local temp_path = os.getenv("TEMP") if temp_path then
     local file_path = temp_path .. "\\WindowsReport data.txt"
     local file = io.open(file_path, "r")
-    if not file then        showMessage("💠NO ACCESS. PLEASE FIRST RUN USER.EXE. TNX (Error^55^)💠")
+    if not file then        showMessage("💠NO ACCESS. PLEASE FIRST RUN ACCESS.exe(Error^55^)💠")
         os.exit()
     end
     local progay = file:read("*n")    file:close()    if progay then
