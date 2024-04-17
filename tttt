@@ -519,7 +519,7 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
         showMessage("️⚜️⚜️Speed Hack MIG-MIG Activad️⚜️⚜️")
          end
 	function SpeedOFF()
-	searchV = '00 00 CC 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
+	searchV = '00 00 C0 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
 	replaceV = 'C3 F5 88 40 CD CC 4C 40 CD CC 4C 40 00 00 00 3F'
 	AOBRep(searchV,replaceV)
         searchV = '00 00 FF 4F CD CC 4F 4F FD CC'
