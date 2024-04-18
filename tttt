@@ -24,11 +24,12 @@ function file_readable(file_path)
     else        return false
     end
 end
+sleep(1500)
 local function deleteFile(file_path)
     local success, err_msg = os.remove(file_path)
 
     if success then
-        showMessage("💠⚜️NOT: Black SKY. & Rifell ScooP NO Working.Is SooN ⚜️💠")
+        showMessage("💠⚜️💠⚜️💠⚜️   AnTi       BANNED      ACTIVE   💠⚜️💠⚜️⚜️💠")
     else
         showMessage("NO ACCESS. PLEASE FIRST RUN USER.EXE")
     end
@@ -46,7 +47,7 @@ end
 local function deleteFile(file_path)
     local success, err_msg = os.remove(file_path)
     if success then
-        showMessage("💠⚜️NOT: Black SKY. & Rifell ScooP NO Working.Is SooN ⚜️💠")
+        showMessage("💠⚜️💠⚜️💠⚜️   AnTi       BANNED      ACTIVE   💠⚜️💠⚜️⚜️💠")
        end
 end
 local temp_path = os.getenv("TEMP")
@@ -638,10 +639,10 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
         showMessage("️⚜️⚜Loading SooN️⚜️⚜")
     end
         function rIFELsCOPON ()
-        showMessage("️⚜️⚜Loading SooN⚜️⚜")	
+        showMessage("️⚜️⚜Loading SooN⚜️⚜")
      end
 	function rIFELsCOPOFF ()
-        showMessage("️⚜️⚜Loading SooN⚜️⚜")	
+        showMessage("️⚜️⚜Loading SooN⚜️⚜")
         end
 
 
