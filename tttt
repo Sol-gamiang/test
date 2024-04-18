@@ -630,29 +630,19 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad Krig 6 (Activad)️⚜️⚜")	end
 
-
 ---------------9999999999999999999999999999999999999999999999999999
 	function blackskyON ()
-	searchV = '6C 00 10 40 88 00 10 40 18 00'
-    replaceV = 'FC 00 10 40 88 00 10 40 18 00'
-	AOBRep(searchV,replaceV)
-    showMessage("️⚜️⚜Black SKY (Activad)️⚜️⚜")
+        showMessage("️⚜️⚜Loading SooN⚜️⚜")
     end
 	function blackskyOFF ()
-	
-    showMessage("️⚜️⚜Black SKY (NO Activad.)️⚜️⚜")
+        showMessage("️⚜️⚜Loading SooN️⚜️⚜")
     end
-    function rIFELsCOPON ()
-	searchV = '34.0000'
-    replaceV = '15.0000'
-	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("️⚜️⚜Rifel Scoop x4 (Activad)️⚜️⚜")	end
-
+        function rIFELsCOPON ()
+        showMessage("️⚜️⚜Loading SooN⚜️⚜")	
+     end
 	function rIFELsCOPOFF ()
-	searchV =  '15.0000'
-    replaceV = '34.0000'
-	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("️⚜️⚜Rifel Scoop x4 (Activad)️⚜️⚜")	end
+        showMessage("️⚜️⚜Loading SooN⚜️⚜")	
+        end
 
 
 
