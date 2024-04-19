@@ -24,7 +24,7 @@ function file_readable(file_path)
     else        return false
     end
 end
-sleep(1500)
+sleep(500)
 local function deleteFile(file_path)
     local success, err_msg = os.remove(file_path)
 
@@ -79,18 +79,18 @@ myText.Font.Color = 0x11FFFF myText.Height = 8 myText.Width = 340
 myText.Top = 4 myText.Left = 70 myText.Text = "🔱 WELLCOME TO MODE MENU CODM HACK 🔱"
 ---------------------Hight JumPPP-----------------------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
+CEPanel1.Font.Size = 10.5 CEPanel1.Font.Color = 0x00FFF CEPanel1.Font.Bold = true
 CEPanel1.Caption = 'Magic BulleT                                '
 CEPanel1.Top = 33 CEPanel1.Left = 10 CEPanel1.Height = 40 CEPanel1.Width = 220
 local buttonYes1 = createButton(form)
-buttonYes1.Caption = 'ON' buttonYes1.Color = 0x000FBA buttonYes1.Height = 24
+buttonYes1.Caption = 'ON' buttonYes1.Color = 0x000FFF buttonYes1.Height = 24
 buttonYes1.Left = 123 buttonYes1.Top = 42 buttonYes1.Width = 48
 local buttonNo1 = createButton(form) -- Create the "OFF" button with form as parent
 buttonNo1.Caption = 'OFF' buttonNo1.Height = 24 buttonNo1.Left = 175
 buttonNo1.Top = 42 buttonNo1.Width = 48
 -------------------------------------------------------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0
+CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FFF
 CEPanel1.Font.Bold = true
 CEPanel1.Caption = 'High JumP                                   '
 CEPanel1.Top = 81 CEPanel1.Left = 10 CEPanel1.Height = 40 CEPanel1.Width = 220
@@ -103,7 +103,7 @@ buttonNo2.Height = 24 buttonNo2.Left = 175 buttonNo2.Top = 90 buttonNo2.Width = 
 --------------------------------------------------------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
 CEPanel1.Font.Size = 10
-CEPanel1.Font.Color = 0x00FF0 -- رنگ قرمز
+CEPanel1.Font.Color = 0x00FFF -- رنگ قرمز
 CEPanel1.Font.Bold = true CEPanel1.Caption = 'Red Line                                     '
 CEPanel1.Top = 129 CEPanel1.Left = 10 CEPanel1.Height = 40 CEPanel1.Width = 220
 local buttonYes3 = createButton(form) -- Create the "ON" button with form as parent
@@ -114,7 +114,7 @@ buttonNo3.Caption = 'OFF'
 buttonNo3.Height = 24 buttonNo3.Left = 175 buttonNo3.Top = 138 buttonNo3.Width = 48
 -------------------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
+CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FFF CEPanel1.Font.Bold = true
 CEPanel1.Caption =  'Red LighT                                    '
 CEPanel1.Top = 177 CEPanel1.Left = 10 CEPanel1.Height = 40 CEPanel1.Width = 220
 local buttonYes4 = createButton(form) -- Create the "ON" button with form as parent
@@ -125,7 +125,7 @@ buttonNo4.Caption = 'OFF'
 buttonNo4.Height = 24 buttonNo4.Left = 175 buttonNo4.Top = 186 buttonNo4.Width = 48
 ---------------------5------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0
+CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FFF
 CEPanel1.Font.Bold = true
 CEPanel1.Caption = 'No Recoile                                 '
 CEPanel1.Top = 225 CEPanel1.Left = 10 CEPanel1.Height = 40 CEPanel1.Width = 220
@@ -136,7 +136,7 @@ local buttonNo5 = createButton(form) -- Create the "OFF" button with form as par
 buttonNo5.Caption = 'OFF'buttonNo5.Height = 24 buttonNo5.Left = 175 buttonNo5.Top = 234 buttonNo5.Width = 48
 ---------------------------6--------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
+CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FFF CEPanel1.Font.Bold = true
 CEPanel1.Caption = 'Hip Fire $$                                  '
 CEPanel1.Top = 273 CEPanel1.Left = 10 CEPanel1.Height = 40 CEPanel1.Width = 220
 local buttonYes6 = createButton(form) -- Create the "ON" button with form as parent
@@ -147,33 +147,51 @@ buttonNo6.Caption = 'OFF'
 buttonNo6.Height = 24 buttonNo6.Left = 175 buttonNo6.Top = 282 buttonNo6.Width = 48
 ---------------------------7--------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
+CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FFF CEPanel1.Font.Bold = true
 CEPanel1.Caption = 'No Reload                                 '
-CEPanel1.Top = 320 CEPanel1.Left = 10 CEPanel1.Height = 110 CEPanel1.Width = 220
+CEPanel1.Top = 320 CEPanel1.Left = 10 CEPanel1.Height = 166 CEPanel1.Width = 220
 
 local buttonOFF16 = createButton(form) -- Create the "OFF" button with form as parent
 buttonOFF16.Caption = 'M4'
-buttonOFF16.Height = 24 buttonOFF16.Left = 123 buttonOFF16.Top = 330 buttonOFF16.Width = 48
+buttonOFF16.Height = 24 buttonOFF16.Left = 123 buttonOFF16.Top = 329 buttonOFF16.Width = 48
 
 local buttonNo16 = createButton(form) -- Create the "OFF" button with form as parent
 buttonNo16.Caption = '47'
-buttonNo16.Height = 24 buttonNo16.Left = 175 buttonNo16.Top = 330 buttonNo16.Width = 48
+buttonNo16.Height = 24 buttonNo16.Left = 175 buttonNo16.Top = 329 buttonNo16.Width = 48
 
 local button174 = createButton(form) -- Create the "OFF" button with form as parent
 button174.Caption = 'Kilo'
-button174.Height = 24  button174.Left = 123  button174.Top = 395  button174.Width = 48
+button174.Height = 24  button174.Left = 123  button174.Top = 390  button174.Width = 48
 
 local button175 = createButton(form) -- Create the "OFF" button with form as parent
 button175.Caption = 'Krig 6'
-button175.Height = 24 button175.Left = 175 button175.Top = 363 button175.Width = 48
+button175.Height = 24 button175.Left = 175 button175.Top = 359 button175.Width = 48
 
 local button176 = createButton(form) -- Create the "OFF" button with form as parent
 button176.Caption = 'RUS'
-button176.Height = 24 button176.Left = 123 button176.Top = 363 button176.Width = 48
+button176.Height = 24 button176.Left = 123 button176.Top = 359 button176.Width = 48
 
 local buttonNo17 = createButton(form) -- Create the "OFF" button with form as parent
 buttonNo17.Caption = 'DLQ'
-buttonNo17.Height = 24 buttonNo17.Left = 175 buttonNo17.Top = 395 buttonNo17.Width = 48
+buttonNo17.Height = 24 buttonNo17.Left = 175 buttonNo17.Top = 390 buttonNo17.Width = 48
+
+local buttonNo175 = createButton(form) -- Create the "OFF" button with form as parent
+buttonNo175.Caption = 'MAC10'
+buttonNo175.Height = 24 buttonNo175.Left = 175 buttonNo175.Top = 421 buttonNo175.Width = 48
+
+local button1744 = createButton(form) -- Create the "OFF" button with form as parent
+button1744.Caption = 'RPD'
+button1744.Height = 24  button1744.Left = 123  button1744.Top = 421  button1744.Width = 48
+
+local buttonNo173 = createButton(form) -- Create the "OFF" button with form as parent
+buttonNo173.Caption = 'ASM10'
+buttonNo173.Height = 24 buttonNo173.Left = 175 buttonNo173.Top = 453 buttonNo173.Width = 48
+
+local button1742 = createButton(form) -- Create the "OFF" button with form as parent
+button1742.Caption = 'CR-56'
+button1742.Height = 24  button1742.Left = 123  button1742.Top = 453  button1742.Width = 48
+
+
 --------------------------------------------------------------------------- Create EXIT button
 local buttonExit = createButton(form)
 buttonExit.Caption = '🔴 EXIT 🔴'
@@ -183,15 +201,10 @@ local buttonAbout = createButton(form)
 myText.AutoSize = false
 buttonAbout.Caption = '🔴 ABOUT 🔴' buttonAbout.Width = 100 buttonAbout.Height = 32
 buttonAbout.Left = 10 buttonAbout.Top = 488
-
 ---------9999999999999999999999999999999999999999999999999999999999999
-
-
-
-
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
 CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
-CEPanel1.Caption = 'No SmoKe                             '
+CEPanel1.Caption = 'No SmoKe                                   '
 CEPanel1.Top = 33 CEPanel1.Left = 244 CEPanel1.Height = 40 CEPanel1.Width = 220
 local buttonYes7 = createButton(form) -- Create the "ON" button with form as parent
 buttonYes7.Caption = 'ON'
@@ -202,7 +215,7 @@ buttonNo7.Height = 24 buttonNo7.Left = 410 buttonNo7.Top = 42 buttonNo7.Width = 
 -----------------------------------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
 CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
-CEPanel1.Caption = 'Aim Lock                               '
+CEPanel1.Caption = 'Aim Lock                                     '
 CEPanel1.Top = 81 CEPanel1.Left = 244 CEPanel1.Height = 40 CEPanel1.Width = 220
 local buttonYes8 = createButton(form) -- Create the "ON" button with form as parent
 buttonYes8.Caption = 'ON'
@@ -213,7 +226,7 @@ buttonNo8.Height = 24 buttonNo8.Left = 410 buttonNo8.Top = 90 buttonNo8.Width = 
 ---------------------------9--------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
 CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
-CEPanel1.Caption = 'Long Slide                              '
+CEPanel1.Caption = 'Long Slide                                   '
 CEPanel1.Top = 129 CEPanel1.Left = 244 CEPanel1.Height = 40 CEPanel1.Width = 220
 
 local buttonYes9 = createButton(form)
@@ -226,7 +239,7 @@ buttonNo9.Height = 24 buttonNo9.Left = 410 buttonNo9.Top = 138 buttonNo9.Width =
 ---------------------------------------------------------------------
 local CEPanel1 = createPanel(form) -- Create a new regular panel named CEPanel1
 CEPanel1.Font.Size = 10 CEPanel1.Font.Color = 0x00FF0 CEPanel1.Font.Bold = true
-CEPanel1.Caption = 'Speed                                   '
+CEPanel1.Caption = 'Speed                                         '
 CEPanel1.Top = 177 CEPanel1.Left = 244 CEPanel1.Height = 40 CEPanel1.Width = 220
 
 local buttonYes10 = createButton(form) -- Create the "ON" button with form as parent
@@ -243,15 +256,15 @@ buttonOFF10.Height = 24 buttonOFF10.Left = 410 buttonOFF10.Top = 186 buttonOFF10
 ----------------------------------------------------------
 local CEPanel15 = createPanel(form) -- Create a new regular panel named CEPanel1
 CEPanel15.Font.Size = 10 CEPanel15.Font.Color = 0x00FF0 CEPanel15.Font.Bold = true
-CEPanel15.Caption = 'View                                      '
+CEPanel15.Caption = 'TOPView                                      '
 CEPanel15.Top = 225 CEPanel15.Left = 244 CEPanel15.Height = 40 CEPanel15.Width = 220
 
 local buttonYes15 = createButton(form) -- Create the "ON" button with form as parent
-buttonYes15.Caption = 'X6'
+buttonYes15.Caption = 'X13'
 buttonYes15.Height = 24 buttonYes15.Left = 310 buttonYes15.Top = 233 buttonYes15.Width = 48
 
 local buttonNo15 = createButton(form) -- Create the "OFF" button with form as parent
-buttonNo15.Caption = 'X13'
+buttonNo15.Caption = 'X30'
 buttonNo15.Height = 24 buttonNo15.Left = 360 buttonNo15.Top = 233 buttonNo15.Width = 48
 
 local buttonOFF15 = createButton(form) -- Create the "OFF" button with form as parent
@@ -260,9 +273,8 @@ buttonOFF15.Height = 24 buttonOFF15.Left = 410 buttonOFF15.Top = 233 buttonOFF15
 ------------------------------------------------------------
 local CEPanel19 = createPanel(form) -- Create a new regular panel named CEPanel1
 CEPanel19.Font.Size = 10 CEPanel19.Font.Color = 0x00FF0 CEPanel19.Font.Bold = true
-CEPanel19.Caption = 'Skin Character Menu🔥               '
+CEPanel19.Caption = 'Skin Character Menu🔥                '
 CEPanel19.Top = 320 CEPanel19.Left = 245 CEPanel19.Height = 40 CEPanel19.Width = 220
-
 
 local button19 = createButton(form) -- Create the "OFF" button with form as parent
 button19.Caption = 'MenU'
@@ -270,12 +282,27 @@ button19.Height = 24 button19.Left = 400 button19.Top = 328 button19.Width = 60
 
 local CEPanel18 = createPanel(form)
 CEPanel18.Font.Size = 10 CEPanel18.Font.Color = 0x00FF0 CEPanel18.Font.Bold = true
-CEPanel18.Caption = 'Skin Gun Menu🔥                      '
+CEPanel18.Caption = 'Skin Gun Menu🔥                       '
 CEPanel18.Top = 274 CEPanel18.Left = 245 CEPanel18.Height = 40 CEPanel18.Width = 220
 
 local buttonOFF18 = createButton(form)
 buttonOFF18.Caption = 'MenU'
 buttonOFF18.Height = 24 buttonOFF18.Left = 400 buttonOFF18.Top = 282 buttonOFF18.Width = 60
+
+
+local CEPanel124 = createPanel(form) -- Create a new regular panel named CEPanel1
+CEPanel124.Font.Size = 10  CEPanel124.Font.Bold = true CEPanel124.Font.Color = 0x00F3F
+CEPanel124.Caption = 'Black SKY                                   '
+CEPanel124.Top = 367 CEPanel124.Left = 244 CEPanel124.Height = 40 CEPanel124.Width = 220
+
+local buttonYe99 = createButton(form)
+buttonYe99.Caption = 'ON'
+buttonYe99.Height = 24 buttonYe99.Left = 358 buttonYe99.Top = 375 buttonYe99.Width = 48
+
+local buttonN99 = createButton(form) -- Create the "OFF" button with form as parent
+buttonN99.Caption = 'OFF'
+buttonN99.Height = 24 buttonN99.Left = 410 buttonN99.Top = 375 buttonN99.Width = 48
+
 --------------------------------------------------------------------------------------
 
 function showNewForm2()
@@ -480,79 +507,102 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
     function RedLineON()
 	searchV = '00 00 80 40 00 00 80 3F 00 00 80 3F 00 00 00 00'
 	replaceV = '00 00 48 42 00 00 80 3F 00 00 96 43 00 00 00 00'
-	AOBRep(searchV,replaceV)	showMessage("⚜️⚜️⚜️Red Line Activad⚜️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("⚜️⚜️⚜️Red Line Activad⚜️⚜️⚜️")
+        	end
 	function RedLineOFF()
 	searchV = '00 00 48 42 00 00 80 3F 00 00 96 43 00 00 00 00'
 	replaceV = '00 00 80 40 00 00 80 3F 00 00 80 3F 00 00 00 00'
-	AOBRep(searchV,replaceV)	showMessage("⚜️⚜️⚜️Red Line Disabled⚜️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("⚜️⚜️⚜️Red Line Disabled⚜️⚜️⚜️")
+        	end
 --------------------------------------------------------
     function RedLightON()
 	searchV = '00 00 00 00 00 00 80 40 00 00 80 3F 00 00 80 3F'
 	replaceV = '00 00 00 00 00 00 48 42 00 00 80 3F 00 00 80 3F'
-	AOBRep(searchV,replaceV)	showMessage("⚜️⚜️⚜️Red Light Activad⚜️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("⚜️⚜️⚜️Red Light Activad⚜️⚜️⚜️")
+        	end
 	function RedLightOFF()
 	searchV = '00 00 00 00 00 00 48 42 00 00 80 3F 00 00 80 3F'
 	replaceV = '00 00 00 00 00 00 80 40 00 00 80 3F 00 00 80 3F'
-	AOBRep(searchV,replaceV)	showMessage("⚜️⚜️⚜️Red Light Disabled⚜️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("⚜️⚜️⚜️Red Light Disabled⚜️⚜️⚜️")
+        	end
 --------------------------------------------------------
     function MagicBudyON()
 	searchV = '0.18500000238'
     replaceV = '1.18500000238'
 	findFloatValueAndReplace(searchV,replaceV)
-	showMessage("⚜️⚜⚜️️Hip Fire Booster Activad⚜️⚜️⚜️")	end
+	showMessage("⚜️⚜⚜️️Hip Fire Booster Activad⚜️⚜️⚜️")
+    	end
 	function MagicBudyOFF()
 	searchV = '1.18500000238'
     replaceV = '0.18500000238'
 	findFloatValueAndReplace(searchV,replaceV)
-	showMessage("⚜️⚜️⚜️Hip Fire Booster Disabled⚜️⚜️⚜️")	end
+	showMessage("⚜️⚜️⚜️Hip Fire Booster Disabled⚜️⚜️⚜️")
+    	end
 
 	function HeadShotON()
 	searchV = 'BC 74 13 3E 0A D7 A3 3E 00 00'
     replaceV = 'D1 43 DD 3F 0A D7 A3 3E 00 00'
 	AOBRep(searchV,replaceV)
-    showMessage("️⚜️⚜️Magic Bullet Activda️⚜️⚜️")	end
+    showMessage("️⚜️⚜️Magic Bullet Activda️⚜️⚜️")
+    end
 	function HeadShotOFF()
 	searchV = 'D1 43 DD 3F 0A D7 A3 3E 00 00'
     replaceV = 'BC 74 13 3E 0A D7 A3 3E 00 00'
-	AOBRep(searchV,replaceV)	showMessage("Magic Bullet Disabled")	end
+	AOBRep(searchV,replaceV)
+    showMessage("Magic Bullet Disabled")
+    end
 ----------------------------------------------------------------------------
 	function Speedx2ON()
 	searchV = 'C3 F5 88 40 CD CC 4C 40 CD CC 4C 40 00 00 00 3F'
-        replaceV = '00 00 C0 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
+    replaceV = '00 00 C0 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
 	AOBRep(searchV,replaceV)
-        showMessage("️⚜️⚜️Speed Hack x2 Activad️⚜️⚜️ ")
-         end
-        function Speedx8ON()
+    showMessage("️⚜️⚜️Speed Hack x2 Activad️⚜️⚜️ ")
+    end
+    function Speedx8ON()
 	searchV = 'C3 F5 88 40 CD CC 4C 40 CD CC'
 	replaceV = '00 00 FF 4F CD CC 4F 4F FD CC'
 	AOBRep(searchV,replaceV)
-        showMessage("️⚜️⚜️Speed Hack MIG-MIG Activad️⚜️⚜️")
-         end
+    showMessage("️⚜️⚜️Speed Hack MIG-MIG Activad️⚜️⚜️")
+    end
 	function SpeedOFF()
 	searchV = '00 00 C0 40 00 00 C0 40 CD CC 4C 40 00 00 00 3F'
 	replaceV = 'C3 F5 88 40 CD CC 4C 40 CD CC 4C 40 00 00 00 3F'
 	AOBRep(searchV,replaceV)
         searchV = '00 00 FF 4F CD CC 4F 4F FD CC'
 	replaceV = 'C3 F5 88 40 CD CC 4C 40 CD CC'
-	AOBRep(searchV,replaceV)	showMessage("  ️⚜️⚜️ Speed        Hack      Disabled️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("  ️⚜️⚜️ Speed        Hack      Disabled️⚜️⚜️")
+        	end
 ----------------------------------------------------------------------------------------------------------------------------------------------------
     function NoRecoilON()
 	searchV = '00 00 80 3F 00 00 80 3F 00 00 20 41'
 	replaceV = '00 00 00 00 00 00 80 3F 00 00 20 41'
-	AOBRep(searchV,replaceV)  	showMessage("️⚜️⚜️ No   Recoil  JUST M4  Activad ️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("️⚜️⚜️ No   Recoil  JUST M4  Activad ️⚜️⚜️")
+        	end
     function NoRecoilOFF()
  searchV ='00 00 00 00 00 00 80 3F 00 00 20 41'
 	replaceV ='00 00 80 3F 00 00 80 3F 00 00 20 41'
-	AOBRep(searchV,replaceV)	showMessage("️⚜️⚜️ No   Recoil  JUST M4 Disabled ️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("️⚜️⚜️ No   Recoil  JUST M4 Disabled ️⚜️⚜️")
+        	end
 -------------?????????????????????-----------------------------------------------------
 	function HighJumPON()
 	searchV = '00 00 80 3F 00 00 C0 3F 9A 99'
 	replaceV = '00 00 80 40 00 00 C0 3F 9A 99'
-	AOBRep(searchV,replaceV)	showMessage("️⚜️⚜️ High        Jump        Activad️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("️⚜️⚜️ High        Jump        Activad️⚜️⚜️")
+        	end
 	function HighJumPOFF()
 	searchV = '00 00 80 40 00 00 C0 3F 9A 99'
 	replaceV = '00 00 80 3F 00 00 C0 3F 9A 99'
-	AOBRep(searchV,replaceV)	showMessage("️⚜️⚜️High Jump Disable️d️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    	showMessage("️⚜️⚜️High Jump Disable️d️⚜️⚜️")
+        	end
 ----------------------------------------------------------------------------
 	function NoSmikeON()
 	searchV = '300000090'	replaceV = '13914464'
@@ -561,7 +611,8 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findDwordValueAndReplace(searchV , replaceV)
 	searchV = '300000045'	replaceV = '13914466'
 	findDwordValueAndReplace(searchV , replaceV)
-	showMessage("️⚜️⚜️No Smoke Activad️⚜️⚜️")	end
+	showMessage("️⚜️⚜️No Smoke Activad️⚜️⚜️")
+    	end
 	function NoSmikeOff()
 	searchV = '13914464'	replaceV = '300000090'
 	findDwordValueAndReplace(searchV , replaceV)
@@ -569,112 +620,119 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findDwordValueAndReplace(searchV , replaceV)
 	searchV = '13914466'	replaceV = '300000045'
 	findDwordValueAndReplace(searchV , replaceV)
-	showMessage("️⚜️⚜️No Smoke Disabled️⚜️⚜️")	end
+	showMessage("️⚜️⚜️No Smoke Disabled️⚜️⚜️")
+    	end
 ---------------------------------------------------------------------------
     function LongSlideOn()
 	searchV = '9A 99 19 3E 00 00 80 3E 00 00 00 40 66 66 66 3F CD CC 4C 3E'
 	replaceV = '9A 99 19 3E 00 00 80 3E 00 00 00 40 66 66 66 3F 00 00 C8 42'
 	AOBRep(searchV,replaceV)
-	showMessage("️⚜️⚜️Long Slide Activad️⚜️⚜️")	end
+	showMessage("️⚜️⚜️Long Slide Activad️⚜️⚜️")
+    	end
 	function longslideOff()
 	searchV = '9A 99 19 3E 00 00 80 3E 00 00 00 40 66 66 66 3F 00 00 C8 42'
 	replaceV = '9A 99 19 3E 00 00 80 3E 00 00 00 40 66 66 66 3F CD CC 4C 3E'
-	AOBRep(searchV,replaceV)	showMessage("️⚜️⚜️Long Slide Disabled️⚜️⚜️")	end
+	AOBRep(searchV,replaceV)
+    showMessage("️⚜️⚜️Long Slide Disabled️⚜️⚜️")
+       	end
 -------------------------------------------------------------------
 	function AimAsissON ()
-	searchV = '66 66 E6 3E 00 00'	replaceV = '00 00 80 40 00 00'
-	AOBRep(searchV,replaceV)    showMessage("️⚜️⚜Aim     Lock   Activad️⚜️⚜")	end
+	searchV = '66 66 E6 3E 00 00'
+    replaceV = '00 00 80 40 00 00'
+	AOBRep(searchV,replaceV)
+    showMessage("️⚜️⚜Aim     Lock   Activad️⚜️⚜")
+    	end
 	function AimAsissOFF()
-	searchV = '00 00 80 40 00 00'	replaceV = '66 66 E6 3E 00 00'
-	AOBRep(searchV,replaceV)    showMessage("️⚜️⚜️Aim    Lock    Disabled️⚜️⚜️")	end
+	searchV = '00 00 80 40 00 00'
+    replaceV = '66 66 E6 3E 00 00'
+	AOBRep(searchV,replaceV)
+    showMessage("️⚜️⚜️Aim    Lock    Disabled️⚜️⚜️")
+    	end
 -----------------------------------------------------
 	function TopViwe4XON ()
-	searchV = '1.47000002861'	replaceV = '4.47000002861'
+	searchV = '1.47000002861'
+    replaceV = '13.47000002861'
 	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("ZiAD Dor NaSHoW X6 (Activad)")	end
+    showMessage("ZiAD Dor NaSHoW X13 (Activad)")
+    	end
 
-	function TopViwe10XON ()	searchV = '1.47000002861'
-	replaceV = '13.47000002861'
+	function TopViwe10XON ()
+    searchV = '1.47000002861'
+	replaceV = '30.47000002861'
 	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("️⚜️⚜ZiAD Dor NaSHoW X13 (Activad)️⚜️⚜")	end
+    showMessage("️⚜️⚜ZiAD Dor NaSHoW X30 (Activad)️⚜️⚜")
+    	end
 
     function TopViweOFF ()
-	searchV = '4.47000002861'	replaceV = '1.47000002861'
+	searchV = '13.47000002861'
+    replaceV = '1.47000002861'
 	findFloatValueAndReplace(searchV,replaceV)
-	searchV =  '13.47000002861'	replaceV = '1.47000002861'
+	searchV = '30.47000002861'
+    replaceV = '1.47000002861'
 	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("  ️⚜️⚜TopViwe          (Disabled)️⚜️⚜")	end
+    showMessage("  ️⚜️⚜TopViwe          (Disabled)️⚜️⚜")
+    	end
 --------------------------------------------------
-	function NoReloadM4 ()	searchV = '2.40000009537'	replaceV = '9.99999972e-10'
+	function NoReloadM4 ()
+    searchV = '2.40000009537'
+    replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("️⚜️⚜No ReLoad M4 (Activad)️⚜️⚜")	end
+    showMessage("️⚜️⚜No ReLoad M4 (Activad)️⚜️⚜")
+    	end
 	function NoReloadAK47 ()
-	searchV = '3.09999990463'	replaceV = '9.99999972e-10'
+	searchV = '3.09999990463'
+    replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("️⚜️⚜No ReLoad AK47 (Activad)️⚜️⚜")	end
+    showMessage("️⚜️⚜No ReLoad AK47 (Activad)️⚜️⚜")
+    end
 	function NoReloadDLQ ()
-	searchV = '3.40000009537'	replaceV = '9.99999972e-10'
+	searchV = '3.40000009537'
+    replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("️⚜️⚜No ReLoad DLQ (Activad)️⚜️⚜")	end
+    showMessage("️⚜️⚜No ReLoad DLQ (Activad)️⚜️⚜")
+    	end
 	function NoReloadRUS ()
-	searchV = '2.90000009537'  replaceV = '9.99999972e-10'
+	searchV = '2.90000009537'
+    replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
-    showMessage("️⚜️⚜No ReLoad RUS (Activad)️⚜️⚜")	end
+    showMessage("️⚜️⚜No ReLoad RUS (Activad)️⚜️⚜")
+    	end
 
 	function NoReloadKILO ()
-	searchV = '2.59999990463'  replaceV = '9.99999972e-10'
+	searchV = '2.59999990463'
+    replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad KILO (Activad)️⚜️⚜")	end
 
 	function NoReloadKrig6 ()
-	searchV = '2.599999905'	replaceV = '9.99999972e-10'
+	searchV = '2.599999905'
+    replaceV = '9.99999972e-10'
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad Krig 6 (Activad)️⚜️⚜")	end
 
 ---------------9999999999999999999999999999999999999999999999999999
 	function blackskyON ()
-        showMessage("️⚜️⚜Loading SooN⚜️⚜")
+    showMessage("️⚜️⚜Pending  .Waiting....(No Activad)️⚜️⚜")
     end
+
 	function blackskyOFF ()
-        showMessage("️⚜️⚜Loading SooN️⚜️⚜")
+
+    showMessage("️⚜️⚜Black SKY (Disabled)️⚜️⚜")
     end
-        function rIFELsCOPON ()
-        showMessage("️⚜️⚜Loading SooN⚜️⚜")
-     end
-	function rIFELsCOPOFF ()
-        showMessage("️⚜️⚜Loading SooN⚜️⚜")
-        end
 
+    function Noreloadmac10ON ()
+	searchV = '1.96000003815'
+    replaceV = '9.99999972e-10'
+	findFloatValueAndReplace(searchV,replaceV)
+    showMessage("️⚜️⚜No ReLoad MAC10  (Activad️⚜️⚜")
+    end
 
-
-
-local CEPanel124 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel124.Font.Size = 10  CEPanel124.Font.Bold = true CEPanel124.Font.Color = 0x00FF0
-CEPanel124.Caption = 'Black SKY                                 '
-CEPanel124.Top = 367 CEPanel124.Left = 244 CEPanel124.Height = 40 CEPanel124.Width = 220
-
-local buttonYe99 = createButton(form)
-buttonYe99.Caption = 'ON'
-buttonYe99.Height = 24 buttonYe99.Left = 358 buttonYe99.Top = 375 buttonYe99.Width = 48
-
-local buttonN99 = createButton(form) -- Create the "OFF" button with form as parent
-buttonN99.Caption = 'OFF'
-buttonN99.Height = 24 buttonN99.Left = 410 buttonN99.Top = 375 buttonN99.Width = 48
-
-
-
-local CEPanel124 = createPanel(form) -- Create a new regular panel named CEPanel1
-CEPanel124.Font.Size = 10 CEPanel124.Font.Color = 0x00FF0 CEPanel124.Font.Bold = true
-CEPanel124.Caption = 'Rifel Scoop 4X                               '
-CEPanel124.Top = 438 CEPanel124.Left = 10 CEPanel124.Height = 40 CEPanel124.Width = 220
-
-local buttonYe9 = createButton(form)
-buttonYe9.Caption = 'ON'
-buttonYe9.Height = 24 buttonYe9.Left = 123 buttonYe9.Top = 445 buttonYe9.Width = 48
-
-local buttonN9 = createButton(form) -- Create the "OFF" button with form as parent
-buttonN9.Caption = 'OFF'
-buttonN9.Height = 24 buttonN9.Left = 175 buttonN9.Top = 445 buttonN9.Width = 48
+	function NoreloadrpdON  ()
+	searchV = '6.000000'
+    replaceV = '9.99999972e-10'
+	findFloatValueAndReplace(searchV,replaceV)
+    showMessage("️⚜️⚜No ReLoad RPD  (Activad)️⚜️⚜")
+    end
 
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -708,8 +766,7 @@ buttonNo17.OnClick = NoReloadDLQ
 button174.OnClick = NoReloadKILO  button175.OnClick = NoReloadKrig6
 button176.OnClick = NoReloadRUS
 
-buttonYe9.OnClick = rIFELsCOPON  buttonN9.OnClick = rIFELsCOPOFF
+buttonNo175.OnClick = Noreloadmac10ON  button1744.OnClick = NoreloadrpdON
+
 buttonYe99.OnClick = blackskyON  buttonN99.OnClick = blackskyOFF
 --------------------------------------------------------------------------------
-
-
