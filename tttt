@@ -302,19 +302,15 @@ buttonYe99.Height = 24 buttonYe99.Left = 358 buttonYe99.Top = 375 buttonYe99.Wid
 local buttonN99 = createButton(form) -- Create the "OFF" button with form as parent
 buttonN99.Caption = 'OFF'
 buttonN99.Height = 24 buttonN99.Left = 410 buttonN99.Top = 375 buttonN99.Width = 48
-
 --------------------------------------------------------------------------------------
-
 function showNewForm2()
     local newForm2 = createForm() -- ایجاد یک فرم جدید
     newForm2.Caption = "SoL.gaming Skin Character Menu"
     newForm2.Color = 0x333335
- -- تنظیم رنگ پس زمینه فرم
     newForm2.Width = 240    newForm2.Height = 200
     newForm2.CenterScreen = true
     newForm2.AutoSize = false
-    newForm2.Show() -- نمایش فرم
-
+    newForm2.Show() 
     local button123 = createButton(newForm2)
     button123.Caption = 'Tempest.New'
     button123.Height = 24    button123.Left = 10    button123.Top = 10    button123.Width = 100
@@ -611,7 +607,7 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findDwordValueAndReplace(searchV , replaceV)
 	searchV = '300000045'	replaceV = '13914466'
 	findDwordValueAndReplace(searchV , replaceV)
-	showMessage("️⚜️⚜️No Smoke Activad️⚜️⚜️")
+	showMessage("️⚜️⚜️No   Smoke     Activad️⚜️⚜️")
     	end
 	function NoSmikeOff()
 	searchV = '13914464'	replaceV = '300000090'
@@ -620,7 +616,7 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findDwordValueAndReplace(searchV , replaceV)
 	searchV = '13914466'	replaceV = '300000045'
 	findDwordValueAndReplace(searchV , replaceV)
-	showMessage("️⚜️⚜️No Smoke Disabled️⚜️⚜️")
+	showMessage("️⚜️⚜️No      Smoke     Disabled️⚜️⚜️")
     	end
 ---------------------------------------------------------------------------
     function LongSlideOn()
@@ -710,7 +706,7 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad Krig 6 (Activad)️⚜️⚜")	end
 
----------------9999999999999999999999999999999999999999999999999999
+---------------9999999999999999999999999999999999999999999999999999--------
 	function blackskyON ()
     showMessage("️⚜️⚜Pending  .Waiting....(No Activad)️⚜️⚜")
     end
@@ -733,8 +729,6 @@ myMemo.Lines.Text ='NOT:*🔥*PERSIAN GULF FOR EVER*🔥*\n' ..
 	findFloatValueAndReplace(searchV,replaceV)
     showMessage("️⚜️⚜No ReLoad RPD  (Activad)️⚜️⚜")
     end
-
-
 ---------------------------------------------------------------------------------------------------------------------------
 buttonYes1.OnClick = HeadShotON   buttonNo1.OnClick = HeadShotOFF
 
